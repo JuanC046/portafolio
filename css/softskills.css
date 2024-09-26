@@ -1,0 +1,47 @@
+.softskills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.softskills__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.softskills__lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:0;
+    margin: 0;
+    gap: 2rem;
+}
+
+.softskills__elemento{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 1rem;
+}
+
+.softskills__icono {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.softskills__nombre {
+    font-size: 1rem;
+}
+@media screen and (min-width: 1200px){
+    .softskills__titulo {
+        font-size: 2rem;
+    }
+    .softskills__nombre {
+        font-size: 1.5rem;
+    }
+    
+}

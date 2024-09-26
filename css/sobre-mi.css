@@ -1,0 +1,19 @@
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 32px;
+    background-color: var(--color-seccion);
+}
+.sobre-mi__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 1200px){
+    .sobre-mi__titulo {
+        font-size: 2rem;
+    }
+}

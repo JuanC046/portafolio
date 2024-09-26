@@ -1,0 +1,79 @@
+/* ------------------------------ Sección Presentación ------------------------------*/
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+.presentacion__foto{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.presentacion__contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.presentacion__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.presentacion__subtitulo{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.redes__item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.redes__item img {
+    width: 24px;
+    height: 24px;
+}
+.redes__item a {
+    color: var(--color-link);
+}
+.redes__item a:hover {
+    color: var(--color-hover-link);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .presentacion {
+        flex-direction: row-reverse;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .presentacion__titulo {
+        font-size: 2.5rem;
+    }
+    .presentacion__subtitulo{
+        font-size: 1.5rem;
+    }
+
+    .redes__item img {
+        width: 32px;
+        height: 32px;
+    }
+    .redes__item a {
+        font-size: 1.25rem;
+    }
+}
