@@ -25,6 +25,7 @@
     background-color: var(--color-card);
     width: 250px;
     padding: 16px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
 
 .formacion__texto {

@@ -5,6 +5,8 @@
 @import url('./css/skills.css');
 @import url('./css/softskills.css');
 @import url('./css/formacion.css');
+@import url('./css/proyectos.css');
+
 :root {
     --color-fondo: #F5F5F5;
     --color-seccion: #EAF2FD;
@@ -12,24 +14,13 @@
     --color-nav-link: #333b46;
     --color-link: #1B64CC;
     --color-hover-link:#5842CA;
+    --color-azul: #2A7AE4;
+    --color-hover1: #D4E4FA;
+    --color-hover2: #5595E9;
+    --color-footer: #3d2962;
 }
 
-body {
-    background-color: var(--color-fondo);
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    line-height: 1.6;
-}
 
-ol, ul, li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 /* ------------------------------ Sección Menú -------------------------------*/
 .cabecera {
@@ -38,6 +29,11 @@ a {
     padding: 1rem;
 }
 
+.titulo__container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 .cabecera__logo {
     max-width: 80px; /* Ajuste para pantallas pequeñas */
 }
@@ -58,23 +54,13 @@ a {
 .navegacion__elemento a:hover {
     color: var(--color-hover-link);
 }
-/* ------------------------------ Sección Presentación ------------------------------*/
-
-
-/* ------------------------------ Sección sobre mí ----------------------------------*/
-
-
-/*------------------------------ Sección de Habilidades ------------------------------*/
-
-
-/*------------------------------ Sección de Aficiones --------------------------------*/
-
-
-/*------------------------------ Sección de Proyectos --------------------------------*/
-
-
-/*------------------------------ Sección de Contacto ---------------------------------*/
-
+/* ------------------------------ Footer ------------------------------*/
+.footer {
+    background-color: var(--color-footer);
+    color: var(--color-fondo);
+    text-align: center;
+    padding: 1rem;
+}
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
